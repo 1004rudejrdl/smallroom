@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.App img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 모바일 화면에서 이미지 크기 조정 */
+@media (max-width: 600px) {
+  .App img {
+    width: 80%;  /* 모바일에서 이미지 가로 크기 80%로 조정 */
+  }
+}
