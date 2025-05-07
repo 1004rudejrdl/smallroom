@@ -1,16 +1,20 @@
-import React from "react";
+import './App.css';
+import Image from './smallroom1.png';
+import Image2 from './smallroom2.png';
+const logo = <img src={Image} alt="로고"></img>;
+const logo2 = <img src={Image2} alt="로고"></img>;
 
 function App() {
   return (
-      <div >
-          <h1>사진 보기 페이지</h1>
-          <div >
-              <img src="/smallroom1.png" alt="Image 1" />
-              <img src="/smallroom2.png" alt="Image 2" />
-          </div>
+      <div className="App">
+
+        <div>{logo}</div>
+        <div>{logo2}</div>
+
+
+
       </div>
   );
 }
-
 
 export default App;
