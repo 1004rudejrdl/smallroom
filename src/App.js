@@ -1,6 +1,6 @@
 import './App.css';
 import Image from './smallroom1.png';
-import Image2 from './smallroom2.png';
+import Image2 from './smallroom3.png';
 const logo = <img src={Image} alt="로고" className="test1"></img>;
 const logo2 = <img src={Image2} alt="로고" className="test1"></img>;
 
